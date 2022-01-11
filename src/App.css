@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F0F8FF;
+}
+
+.todo-header{
+  width: 450px;
+  height: 250px;
+  background-color: #1F75FE;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.main-todo-h1 {
+  padding-top: 40px;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.todo-head-inp {
+    width: 80%;
+    height: 40px;
+    margin-top: 5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.fa-plus-square {
+  position: relative;
+  right: 22px;
+}
+
+.todo-bottom-show {
+  width: 450px;
+  height: 60px;
+  background-color: #3E8EDE;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #3E8EDE;
+}
+
+.fa-check-circle {
+  position: relative;
+  left: 405px;
+  color: rgb(255, 166, 0);
+}
+
+.fa-times-circle {
+  position: relative;
+  left: 405px;
+  color: rgb(255, 166, 0);
+}
+
+.fa-trash-alt {
+  position: relative;
+  left: 410px;
+  color: rgb(255, 166, 0);
+}
+
+.todo-show-txt {
+  position: relative;
+  right: 20px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+.finish-todo{
+  color: green;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: default;
+}
+.finish-todo-bottom-show{
+  width: 450px;
+  height: 60px;
+  background-color: #d3e9ff;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  border: green 1px solid;
+}
